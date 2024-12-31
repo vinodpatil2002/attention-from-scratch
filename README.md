@@ -44,6 +44,10 @@ This repository demonstrates a minimal implementation of attention mechanisms in
    • Stacks multiple DecoderBlocks.  
    • Applies a final normalization step before output.
 
+11. **ProjectionLayer**  
+   • Projects the final output to vocab_size dimensions.  
+   • Applies log_softmax for probability distribution.
+
 ## Usage
 
 • Import and instantiate these classes as building blocks for your Transformer.  

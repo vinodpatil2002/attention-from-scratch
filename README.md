@@ -48,6 +48,10 @@ This repository demonstrates a minimal implementation of attention mechanisms in
    • Projects the final output to vocab_size dimensions.  
    • Applies log_softmax for probability distribution.
 
+12. **Transformer**  
+   • Combines encoder, decoder, embeddings, positional encodings, and projection.  
+   • Provides encode, decode, and project methods for end-to-end sequence modeling.
+
 ## Usage
 
 • Import and instantiate these classes as building blocks for your Transformer.  

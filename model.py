@@ -164,3 +164,4 @@ class Encoder(nn.Module):
             x = layer(x, mask)
 
         return self.norm(x)
+

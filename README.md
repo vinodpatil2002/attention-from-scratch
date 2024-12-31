@@ -36,6 +36,14 @@ This repository demonstrates a minimal implementation of attention mechanisms in
    • Stacks multiple EncoderBlocks and applies a final normalization.  
    • Iteratively refines the input representation using attention and feed-forward blocks.
 
+9. **DecoderBlock**  
+   • Handles self-attention on the target sequence and cross-attention with the encoder output.  
+   • Uses three residual connections to integrate sublayers.
+
+10. **Decoder**  
+   • Stacks multiple DecoderBlocks.  
+   • Applies a final normalization step before output.
+
 ## Usage
 
 • Import and instantiate these classes as building blocks for your Transformer.  

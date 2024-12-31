@@ -1,4 +1,3 @@
-
 # Attention from Scratch
 
 This repository demonstrates a minimal implementation of attention mechanisms in a Transformer-like architecture. Below is an overview of each component in the model.py file.
@@ -28,6 +27,14 @@ This repository demonstrates a minimal implementation of attention mechanisms in
 6. **ResidualConnectionBlock**  
    • Adds a skip connection plus dropout.  
    • Normalizes input before passing to the sublayer.
+
+7. **EncoderBlock**  
+   • Combines self-attention and feed-forward layers.  
+   • Uses residual connections to stabilize training.  
+
+8. **Encoder**  
+   • Stacks multiple EncoderBlocks and applies a final normalization.  
+   • Iteratively refines the input representation using attention and feed-forward blocks.
 
 ## Usage
 
